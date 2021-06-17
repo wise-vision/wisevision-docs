@@ -1,0 +1,47 @@
+/* stylelint-disable docusaurus/copyright-header */
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #1332e2;
+  --ifm-color-secondary: #ffffff;
+  --ifm-color-primary-dark: #1332e2;
+  --ifm-color-primary-darker: #1836e4ad;
+  --ifm-color-primary-darkest: #0322d193;
+  --ifm-color-primary-light: #05bfe0;
+  --ifm-color-primary-lighter: #05f2f5;
+  --ifm-color-primary-lightest: #6bfff5;
+  --ifm-code-font-size: 95%;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgb(72, 77, 91);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+.prism-code {
+  counter-reset: line-number;
+}
+
+/*
+ * Notice the chained .language-ts class name to .prism-code
+ * You can chain more languages in order to add line numbers
+ */
+.prism-code.language-python .token-line::before,
+.prism-code.language-javascript .token-line::before {
+  counter-increment: line-number;
+  content: counter(line-number);
+  margin-right: calc(var(--ifm-pre-padding) * 1.1);
+  text-align: right;
+  min-width: 1.1rem;
+  display: inline-block;
+  opacity: .3;
+  position: sticky;
+  left: var(--ifm-pre-padding);
+}
