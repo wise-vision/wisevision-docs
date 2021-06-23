@@ -53,7 +53,7 @@ Dostępne funkcje:
 - Przechowywanie nagrań przez dowolnie wybrany okres czasu
 
 Analizy:
-- Detekcja ruchu na obrazie 
+- Detekcja ruchu
 - Detekcja niestandardowych zmian
 - Śledzenie osób i obiektów
 - Rozpoznawanie tablic rejestacyjnych 
