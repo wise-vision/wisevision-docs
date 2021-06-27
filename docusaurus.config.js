@@ -1,20 +1,20 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: 'wisevision',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'wisevision is cool',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'wisevision', // Usually your GitHub org/user name.
+  projectName: 'wisevision-docs', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'wisevision',
       logo: {
         alt: 'wisevision Logo',
-        src: 'img/logo.svg',
+        src: 'img/wisevision_logo.png',
       },
       items: [
         {
