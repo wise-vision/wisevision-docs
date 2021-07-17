@@ -2,7 +2,7 @@
 module.exports = {
   title: 'wisevision',
   tagline: 'wisevision is cool',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://wisevision.com.pl',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -52,15 +52,15 @@ module.exports = {
           items: [
             {
               label: 'Newsletter',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              href: 'https://wisevision.com.pl',
             },
             {
               label: 'Linkedin',
-              href: 'https://discordapp.com/invite/docusaurus',
+              href: 'https://www.linkedin.com/company/wisevision-pl/',
             },
             {
               label: 'Facebook',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://wisevision.com.pl',
             },
           ],
         },
@@ -73,7 +73,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/wise-vision',
             },
           ],
         },
