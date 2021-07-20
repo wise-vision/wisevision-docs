@@ -15,6 +15,8 @@ module.exports = {
       logo: {
         alt: 'wisevision Logo',
         src: 'img/wisevision_logo.png',
+        href: 'https://wisevision.com.pl',
+        target: '_self',
       },
       items: [
         {
