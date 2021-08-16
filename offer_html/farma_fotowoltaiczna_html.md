@@ -196,4 +196,6 @@ Tel. Adam: 790-703-025
 
 Tel. Łukasz: 530-615-552
 
-email.: biuro@inter-plus.eu , adam.krawczyk@inter-plus.eu
+email.: office@wisevision.com.pl , adam.krawczyk@inter-plus.eu
+
+<!-- pandoc farma_fotowoltaiczna_html.md -o wisevision_oferta_monitoringu_farma_fotowoltaiczna_2021.pdf --pdf-engine=wkhtmltopdf -->

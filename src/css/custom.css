@@ -1,4 +1,6 @@
 /* You can override the default Infima variables here. */
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
+
 :root {
   --ifm-color-primary: #1f3de9;
   --ifm-color-secondary: #ffffff;
@@ -9,7 +11,11 @@
   --ifm-color-primary-lighter: #05f2f5;
   --ifm-color-primary-lightest: #6bfff5;
   --ifm-code-font-size: 95%;
+  --ifm-font-family-base: 'Ropa Sans';
+  --ifm-font-size-base: 120%;
 }
+
+html[data-theme='dark'] {  --ifm-color-primary:#4bcdf0 ;  --ifm-color-primary-dark:#1f3de9 ;  /* any other colors you wish to overwrite */}
 
 .docusaurus-highlight-code-line {
   background-color: rgb(72, 77, 91);
@@ -22,6 +28,18 @@
   counter-reset: line-number;
 }
 
+/* html[data-theme="light"] .navbar__title {
+  color: white;
+}
+html[data-theme="dark"] .navbar__title {
+  color: white;
+}
+html[data-theme="light"] .navbar {
+  background-color: black;
+}
+html[data-theme="dark"] .navbar {
+  background-color: black;
+} */
 /*
  * Notice the chained .language-ts class name to .prism-code
  * You can chain more languages in order to add line numbers

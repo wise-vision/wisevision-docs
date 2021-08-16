@@ -12,6 +12,7 @@ module.exports = {
   themeConfig: {
     navbar: {
       title: 'wisevision',
+      style: 'primary',
       logo: {
         alt: 'wisevision Logo',
         src: 'img/wisevision_logo.png',
