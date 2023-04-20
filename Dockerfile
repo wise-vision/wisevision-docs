@@ -1,4 +1,4 @@
-FROM node:14.17.1
+FROM node:18.16
 
 
 EXPOSE 3000 35729
