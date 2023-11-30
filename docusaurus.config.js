@@ -24,7 +24,7 @@ module.exports = {
           type: 'doc',
           docId: 'intro',
           position: 'right',
-          label: 'Dokumentacja',
+          label: 'Docs',
         },
         {to: '/blog', label: 'Blog', position: 'right'},
         // {
@@ -41,7 +41,7 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Dokumentacja',
+              label: 'Docs',
               to: '/docs/intro',
             },
             {
